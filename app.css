@@ -19,6 +19,20 @@
     height: 100%;
 }
 
+.btn {
+    display: inline-block;
+    padding: .5rem .75rem;
+    text-decoration: none;
+    color: #f4645f;
+    border: #f4645f 1px solid;
+    border-radius: 2rem;
+}
+
+.btn.white {
+    color: #fefefe;
+    border: #fefefe 1px solid;
+}
+
 .section.hero {
     background: #f4645f;
 }
@@ -27,9 +41,21 @@
     padding: 1rem;
     color: #fefefe;
     font-size: 5rem;
+    text-align: center;
 }
 
 .section.hero .description {
     color: #fefefe;
     font-size: 1.5rem;
+}
+
+.section.hero .btn-wrap {
+    display: flex;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section.hero .title {
+        font-size: 3rem;
+    }
 }
