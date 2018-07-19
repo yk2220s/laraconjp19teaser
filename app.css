@@ -32,6 +32,12 @@
 .btn.white {
     color: #fefefe;
     border: #fefefe 1px solid;
+    transition: all .2s ease;
+}
+
+.btn.white:hover {
+    color: #f4645f;
+    background: #fefefe;
 }
 
 .section.hero {
