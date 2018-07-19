@@ -23,6 +23,7 @@
     display: inline-block;
     padding: .5rem .75rem;
     text-decoration: none;
+    text-align: center;
     color: #f4645f;
     border: #f4645f 1px solid;
     border-radius: 2rem;
@@ -51,11 +52,24 @@
 
 .section.hero .btn-wrap {
     display: flex;
-    padding: 1rem;
+    padding: 2rem 0 1rem;
+}
+
+.section.hero .btn-wrap .btn:first-of-type {
+    margin-right: 1rem;
 }
 
 @media screen and (max-width: 768px) {
     .section.hero .title {
         font-size: 3rem;
+    }
+
+    .section.hero .btn-wrap {
+        flex-direction: column;
+    }
+
+    .section.hero .btn-wrap .btn:first-of-type {
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
 }
