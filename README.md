@@ -1,2 +1,2 @@
 # LaraCon JP teaser
-Teaser Site of Laravel Conference JP
+Teaser Site of Laravel JP Conference
