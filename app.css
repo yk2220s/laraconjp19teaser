@@ -99,4 +99,8 @@
         margin-right: 0;
         margin-bottom: 1rem;
     }
+
+    .section.hero .description {
+        font-size: 1.2rem;
+    }
 }
