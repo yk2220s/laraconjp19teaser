@@ -66,10 +66,11 @@
 
 .section.hero .btn-wrap .btn {
     min-width: 200px;
+    margin-right: 1rem;
 }
 
-.section.hero .btn-wrap .btn:first-of-type {
-    margin-right: 1rem;
+.section.hero .btn-wrap .btn:last-of-type {
+    margin-right: 0;
 }
 
 .section.hero .unit {
@@ -95,7 +96,7 @@
         flex-direction: column;
     }
 
-    .section.hero .btn-wrap .btn:first-of-type {
+    .section.hero .btn-wrap .btn {
         margin-right: 0;
         margin-bottom: 1rem;
     }
