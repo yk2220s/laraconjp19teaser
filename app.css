@@ -41,6 +41,9 @@
     background: #fefefe;
 }
 
+/**
+ * Hero Content
+ */
 .section.hero {
     background: #f4645f;
 }
@@ -85,6 +88,25 @@
 
 .section.hero .hashtag:hover {
     opacity: 0.5;
+}
+
+/**
+ * Principle
+ */
+.principle .section-inner {
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.principle .title {
+    padding: 1rem 0;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.principle p {
+    padding-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
