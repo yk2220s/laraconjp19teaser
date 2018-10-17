@@ -126,4 +126,8 @@
     .section.hero .description {
         font-size: 1rem;
     }
+
+    .principle .section-inner {
+        height: auto;
+    }
 }
